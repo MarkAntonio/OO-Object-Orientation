@@ -1,0 +1,22 @@
+from pessoa import Pessoa
+
+# p1 = Pessoa('Aristeu', 58)
+# p1.comer('macaxeira')
+# p1.falar('POO')
+# p1.parar_comer()
+# p1.falar('POO')
+# p1.parar_falar()
+# p1.comer('sorvete')
+# p1.parar_comer()
+# p1.falar('assunto')
+p1 = Pessoa('Aristeu', 58)
+p2 = Pessoa('Pedro', 8)
+# p1.falar('python')
+# p2.comer('picolé')
+# p1.comer('doces')
+
+# print(p1.ano_atual)
+# print(p2.ano_atual)
+# print(Pessoa.ano_atual)
+print(p1.get_ano_nascimento())
+p1.falar('C++')
