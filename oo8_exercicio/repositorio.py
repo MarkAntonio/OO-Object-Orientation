@@ -7,6 +7,6 @@ class Repositorio:
 
     def insert(self, db_connection: any) -> None:
         connection = db_connection.conectar()
-        print(f'Conectei ao banco {connection}')
+        print('Conectei ao banco {}'.format(connection))
         print(f'Fazendo um Insert Values...')
         db_connection.desconectar()

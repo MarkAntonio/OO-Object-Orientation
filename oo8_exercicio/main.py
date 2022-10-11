@@ -8,3 +8,5 @@ repo = Repositorio()
 repo.insert(db_conn_postgres)
 print()
 repo.insert(db_conn_mysql)
+
+#Banco de dados é igual motel entra é sai rapidinho kksksksksksk
